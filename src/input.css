@@ -3,21 +3,54 @@
 @tailwind utilities;
 
 body{
-    background-image: url('../dist/img/bg-tablet-pattern.svg');
-    background-repeat: no-repeat;
-    background-size: 800px;
-    background-position: 90% -25%;
+    
 }
 
-#cta{
-    background-image: url('../dist/img/bg-simplify-section-desktop.svg');
+#hero{
+    background-image: url('../dist/img/KathyHenryHeroImage-desktop.jpg');
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#heropersonal{
+    background-image: url('../dist/img/Commercialhero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#herowealth{
+    background-image: url('../dist/img/hero-wealth.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#heroabout{
+    background-image: url('../dist/img/about-hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#dei{
+    background-image: url('../dist/img/deiimage.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#community{
+    background-image: url('../dist/img/DEIimage2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 @media(max-width: 576px){
-    body{
-        background-position: 50px -50px; 
-        background-size: 500px; 
+    #hero{
+        background-image: url('../dist/img/KathyHenryHeroImage-mobile.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     }
 
     #cta{
