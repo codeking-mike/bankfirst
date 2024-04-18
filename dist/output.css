@@ -631,6 +631,10 @@ video {
   margin-top: -2.5rem;
 }
 
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -699,6 +703,10 @@ video {
   height: 2.5rem;
 }
 
+.h-12 {
+  height: 3rem;
+}
+
 .h-14 {
   height: 3.5rem;
 }
@@ -739,16 +747,32 @@ video {
   width: 100%;
 }
 
+.w-24 {
+  width: 6rem;
+}
+
+.w-32 {
+  width: 8rem;
+}
+
+.w-48 {
+  width: 12rem;
+}
+
+.max-w-2xl {
+  max-width: 42rem;
+}
+
 .max-w-32 {
   max-width: 8rem;
 }
 
-.max-w-6xl {
-  max-width: 72rem;
+.max-w-48 {
+  max-width: 12rem;
 }
 
-.max-w-full {
-  max-width: 100%;
+.max-w-6xl {
+  max-width: 72rem;
 }
 
 .max-w-sm {
@@ -765,6 +789,10 @@ video {
 
 .grow {
   flex-grow: 1;
+}
+
+.list-disc {
+  list-style-type: disc;
 }
 
 .flex-row {
@@ -953,6 +981,10 @@ video {
   padding: 3rem;
 }
 
+.p-2 {
+  padding: 0.5rem;
+}
+
 .p-3 {
   padding: 0.75rem;
 }
@@ -969,9 +1001,19 @@ video {
   padding: 2rem;
 }
 
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .px-12 {
   padding-left: 3rem;
   padding-right: 3rem;
+}
+
+.px-14 {
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
 }
 
 .px-20 {
@@ -1007,6 +1049,11 @@ video {
 .py-12 {
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
 }
 
 .py-16 {
@@ -1208,8 +1255,22 @@ body{
   background-position: center;
 }
 
+#bankhero{
+  background-image: url('./img/biking.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 #heropersonal{
   background-image: url('./img/Commercialhero.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#checking{
+  background-image: url('./img/momdaughterpiggybankbanking.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -1380,6 +1441,10 @@ body{
     width: 50%;
   }
 
+  .md\:w-1\/3 {
+    width: 33.333333%;
+  }
+
   .md\:w-2\/3 {
     width: 66.666667%;
   }
@@ -1454,6 +1519,11 @@ body{
     border-right-width: 2px;
   }
 
+  .md\:border-r-neutral-300 {
+    --tw-border-opacity: 1;
+    border-right-color: rgb(212 212 212 / var(--tw-border-opacity));
+  }
+
   .md\:bg-blue-700 {
     --tw-bg-opacity: 1;
     background-color: rgb(29 78 216 / var(--tw-bg-opacity));
@@ -1470,6 +1540,11 @@ body{
   .md\:px-10 {
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+  }
+
+  .md\:px-12 {
+    padding-left: 3rem;
+    padding-right: 3rem;
   }
 
   .md\:px-14 {
@@ -1505,6 +1580,10 @@ body{
   .md\:py-24 {
     padding-top: 6rem;
     padding-bottom: 6rem;
+  }
+
+  .md\:pt-10 {
+    padding-top: 2.5rem;
   }
 
   .md\:text-left {
